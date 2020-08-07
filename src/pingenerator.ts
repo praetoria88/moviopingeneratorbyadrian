@@ -1,4 +1,4 @@
-export default () => {
+export default function pinGenerator() {
     let output: string | number[]; 
     for (let i=0; i<999; i++) {
         output += randomPin(i)  + ", ";
